@@ -353,11 +353,13 @@ body {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .small {
-    margin-top: 0;
-    margin-bottom: 5px;
-    font-size: 2em;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+li {
+    list-style-type: none;
 }
