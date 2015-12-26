@@ -200,7 +200,7 @@ header .header-content .header-content-inner h1 {
     font-weight: 700;
 }
 
-header .header-content .header-content-inner h3 {
+header .header-content .header-content-inner h2 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -484,5 +484,8 @@ body {
 
 .name-title {
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+
+    -webkit-font-smoothing: antialiased
 }
