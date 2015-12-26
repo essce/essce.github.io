@@ -90,6 +90,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 header .header-content {
@@ -338,4 +339,25 @@ body {
 .name-title {
     color: white;
     -webkit-text-stroke: rgba(0,0,0,1) 0.05em;
+}
+
+.big {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 5em;
+}
+.medium {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.small {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 2em;
 }
