@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Montserrat', 'Merriweather','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Montserrat', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -295,7 +295,7 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Montserrat', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
 }
 
