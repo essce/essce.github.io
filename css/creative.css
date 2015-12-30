@@ -84,7 +84,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url("https://images.unsplash.com/photo-1440557958969-404dc361d86f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=345041c7171b59be6312c9ff0525c3df");
+    background-image: url("https://images.unsplash.com/photo-1443998486566-cc8482a99bfd?crop=entropy&dpr=2&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1700");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -357,8 +357,8 @@ body {
 }
 
 .small {
-    font-weight: 900;
-    font-size: 1.5em;
+    -webkit-transform: translate(-0.08em, -0.1em); /* Safari */
+    transform: translate(-0.08em, -0.1em);
 }
 li {
     list-style-type: none;
