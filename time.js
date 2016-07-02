@@ -51,3 +51,6 @@ switch (current_hour){
         document.getElementById("bode").className = "b9";
         break;
 }
+(function blink() { 
+    $('.social-me').fadeOut(750).fadeIn(500, blink); 
+})();
