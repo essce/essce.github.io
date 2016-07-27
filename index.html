@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
@@ -38,7 +39,11 @@
                 Software Developer
                 <br/>
                 <div class="social-med bord" id="bord-me-up">
-                    <a class="col-md-3" href="mailto:ess.chin@gmail.com">e-mail</a> <!-- email -->
+                    <!-- <a class="col-md-3" href="mailto:ess.chin@gmail.com">e-mail</a>  email -->
+                    <input id="foo" value="ess.chin@gmail.com">
+                    <button class="btn col-md-3" data-clipboard-target="#foo">
+                        <img src="assets/clippy.svg" alt="Copy to clipboard">
+                    </button>
                     <a class="col-md-3" href="http://github.com/essce" target="_blank">Github</a> <!-- github -->
                     <a class="col-md-3" href="http://linkedin.com/in/chinstanley" target="_blank">LinkedIN</a> <!-- linkedin -->
                 </div>
