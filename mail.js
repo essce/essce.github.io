@@ -9,7 +9,7 @@ $(document).on("click", ".mail", function(e) {
                         className: "btn-success",
                         callback: function() {
                             var email = 'ess.chin@gmail.com';
-                            var mailto_link = 'mailto:' + email;
+                            var mailto_link = 'mailto//:' + email;
                             win = window.open(mailto_link, 'emailWindow');
                             if (win && win.open && !win.closed) win.close();
                         }
@@ -49,7 +49,7 @@ $(document).on("click", ".mail", function(e) {
                                             var name = $('#name').val();
                                             var subject = $('#subject').val();
                                             var body_message = $('#body').val();
-                                            var mailto_link = 'mailto:' + email + '?subject=' + subject + '&body=' + body_message;
+                                            var mailto_link = 'mailto://' + email + '?subject=' + subject + '&body=' + body_message;
                                             win = window.open(mailto_link, 'emailWindow');
                                             if (win && win.open && !win.closed) win.close();
 
