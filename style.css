@@ -103,7 +103,7 @@ html, body, .container-table {
 
 .head{
 	
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Press Start 2P', cursive;
 	color: black;
 	
 }
@@ -126,6 +126,10 @@ ul {
 	list-style-type: none;
 }
 
+li {
+	font-size: 1.5em;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -137,4 +141,10 @@ div .lv3{
 .shadow {
 	box-shadow: 0 4px #eee, 0 -4px #eee, 4px 0 #eee, -4px 0 #eee, 0 0 0 4px #999, 0 12px 0 4px #999, 0 20px #999, -8px 0 #999, 8px 0 #999, -8px 12px #999, 8px 12px #999, 0 -8px #999;
 	background-color: #eee;
+	opacity: 0.8;
+}
+
+p {
+	line-height: 150%;
+	font-size: 1.5em;
 }
