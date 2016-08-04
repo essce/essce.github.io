@@ -50,15 +50,15 @@
                 <h3>Contact me: </h3>
                 <div class="social-med bord" id="bord-me-up">
                     <ul>
-                        <li><a href="javascript:%20showForm()" class="col-md-3 mail">e-mail</a></button>  <!-- email --></li>
+                        <li><a href="javascript:%20showContact()" class="col-md-3 mail">e-mail</a></button>  <!-- email --></li>
                         <li><a class="col-md-3" href="http://github.com/essce" target="_blank">Github</a> <!-- github --></li>
                         <li><a class="col-md-3" href="http://linkedin.com/in/chinstanley" target="_blank">LinkedIN</a> <!-- linkedin --></li>
-                        <li><a class="col-md-3" href="http://linkedin.com/in/chinstanley" target="_blank">Resume</a> <!-- linkedin --></li>
+                        <li><a href="javascript:%20showResume()" class="col-md-3" target="_blank">Resume</a> <!-- linkedin --></li>
                     </ul>
                 </div>
             </div>
 
-            <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf4hSYBd3o3MCEIA-jq1jl4RWqMULQQbwvVLqXR3wYWmHimow/formResponse" target="hidden_iframe" onsubmit="hideForm()" class="form-horizontal col-md-8 col-md-offset-2 lv3 shadow" style="display:none">
+            <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf4hSYBd3o3MCEIA-jq1jl4RWqMULQQbwvVLqXR3wYWmHimow/formResponse" target="hidden_iframe" onsubmit="wipe();submitted()" class="form-horizontal col-md-8 col-md-offset-2 lv3 shadow" style="display:none">
                 <fieldset>
                     <!-- Form Name -->
                     <h2 class="head">
@@ -90,34 +90,36 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="body">Body</label>
                         <div class="col-md-4">                     
-                            <textarea class="form-control" name="entry.1921527425" id="entry.1921527425"></textarea>
+                            <textarea class="form-control" name="entry.1921527425" id="entry.1921527425" style="max-width:100%;"></textarea>
                         </div>
                     </div>
                     <!-- Button -->
-                    <div class="form-group">
+                    <div class="form-group" id="bouttons">
                         <label class="col-md-4 control-label" for="submit"></label>
-                        <div class="col-md-4">
-                            <button id="submit" name="submit" class="btn btn-primary">Submit</button>
+                        <div class="col-md-2">
+                            <button onclick="wipe();hideAll()" id="backb" class="btn btn-text lv3 shadow">Back</button>
+                        </div>
+                        <div class="col-md-2">
+                            <button id="submit" name="submit" class="btn btn-text lv3 shadow">Submit</button>
                         </div>
                     </div>
+                    <!-- Button -->
+                    <label class="col-md-12 control-label" id="submitted"></label>
                 </fieldset>
             </form>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload=""></iframe>
+            <div id="resume" class="col-md-8 col-md-offset-2 lv3 shadow" style="display:none">
+                <h2 class="head">
+                    STANLEY CHIN RESUME 
+                </h2>
+                <div class="col-md-12" style="text-align:center">
+                    <button onclick="wipe();hideAll()" id="backb" class="btn btn-text lv3 shadow">Back</button>
+                </div>
+            </div>
+
         </div>
     </div>
-    <script>
-    function showForm() {
-        document.getElementById('gform').style.display = "block";
-        document.getElementById('about').style.display = "none";
-    }
-    function hideForm() {
-        document.getElementById('about').style.display = "block";
-        document.getElementById('gform').style.display = "none";
-    }
-    </script>
-    <script type="text/javascript">
-    
-    </script>
+    <script src="mail.js"></script>
     <script src="time.js"></script>
     <!--<script src="mail.js"></script>-->
     <script src="bootbox.min.js"></script>
