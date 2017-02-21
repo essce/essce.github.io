@@ -125,6 +125,8 @@ html, body, .container-table {
 	float:right;
 	font-size: 1em;
 	color: black;
+	text-shadow: 0.5px 0.5px #FFF;
+
 }
 /* mouse over link */
 .social-med a:hover {
