@@ -122,7 +122,6 @@ html, body, .container-table {
 
 .social-med a:link, a:visited, a:active {
 	font-family: 'Raleway', sans-serif;
-	float:right;
 	font-size: 1em;
 	color: black;
 	text-shadow: 0.5px 0.5px #FFF;
@@ -130,7 +129,6 @@ html, body, .container-table {
 }
 /* mouse over link */
 .social-med a:hover {
-	float:right;
 	color: #FFF;
 	text-shadow: 0.5px 0.5px #FFF;
 
