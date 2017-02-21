@@ -17,7 +17,7 @@ function hideResume() {
     document.getElementById('resume').style.display = "none";
 }
 function hideAll() {
-    hideContact();
+    //hideContact();
     hideResume();
 }
 $(document).ready(function() {

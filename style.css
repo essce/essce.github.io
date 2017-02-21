@@ -93,19 +93,19 @@ body {
 html, body, .container-table {
 	height: 100%;
 }
-.container-table {
-	display: table;
-}
+
 .vertical-center-row {
-	display: table-cell;
-	vertical-align: middle;
+	margin-top: 10%;
 }
 
 .head, .btn-text{
 	
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-size: 5em;
 	color: black;
 	text-align: center;
+	text-shadow: 0.5px 0.5px #FFF;
+
 	
 }
 .btn-text {
@@ -114,15 +114,24 @@ html, body, .container-table {
 .neck {
 	font-family: 'Raleway', sans-serif;
 	color: black;
+	text-align: center;
+	text-shadow: 0.5px 0.5px #FFF;
+
+
 }
 
 .social-med a:link, a:visited, a:active {
+	font-family: 'Raleway', sans-serif;
+	float:right;
 	font-size: 1em;
 	color: black;
 }
 /* mouse over link */
 .social-med a:hover {
-	color: #00FFFF;
+	float:right;
+	color: #FFF;
+	text-shadow: 0.5px 0.5px #FFF;
+
 	text-decoration: none;
 }
 
@@ -146,7 +155,7 @@ div .lv3{
 .shadow {
 	box-shadow: 0 4px #eee, 0 -4px #eee, 4px 0 #eee, -4px 0 #eee, 0 0 0 4px #999, 0 12px 0 4px #999, 0 20px #999, -8px 0 #999, 8px 0 #999, -8px 12px #999, 8px 12px #999, 0 -8px #999;
 	background-color: #eee;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 p {
